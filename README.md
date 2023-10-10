@@ -1,5 +1,5 @@
+# Project: Personal Blog Website
 Front-End Web Developer Nanodegree
-Project: Personal Blog Website
 
 # Homepage
 https://hazem-saber.github.io/travel-hacks/index.html
