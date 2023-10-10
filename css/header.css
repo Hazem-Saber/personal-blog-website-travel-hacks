@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--grey);
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0px 1px 0px var(--grey-dark);
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.header__menu {
+  display: flex;
+  gap: 16px;
+}
+
+.menu__link--active {
+  font-weight: bold;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
